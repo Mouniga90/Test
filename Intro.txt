@@ -1,0 +1,19 @@
+Domain - Product Installation data (s3/athena)
+What products have been downloaded from the site
+How many products were installed
+Session key gets created whenever a customer downloads any product. Based on which we can measure the product usage.
+Quality Check - Count(session key) between source and data mart.
+Data gets loaded into DDUX mart.
+Daily Refresh
+
+Domain - Product activation data (SQL/SQL)
+After customer installs Matlab for example, activation key gets generated. Based on which the company verify the license.
+License information, activation key details will be there
+Data gets loaded into DW mart.
+
+Domain - Community Metrics(Mysql)
+Data collected from Mathworks site. People post questions. Those information will be collected and stored in the DB.
+
+Transformation - Masking Customer PII information
+
+Tools - SAP BODS, Sky BOT.
